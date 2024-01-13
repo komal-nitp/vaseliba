@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vaseliba</title>
+    <link rel="stylesheet" type="text/css" href="mainpage.css">
+   
+  </head>
+  <body>
+    <header>
+      <div class="Komal">
+        <h1>vaselība</h1>
+      </div>
+	  </header>
+	    <nav>
+		    <a href="formen.html">&nbsp;for men&nbsp;</a>
+		    <a href="forwomen.html">&nbsp;for women&nbsp;</a>
+		    <a href="help.html">&nbsp;help&nbsp;</a>
+		    <a href="login.html">&nbsp;log in&nbsp;</a>
+		    <a href="signup.html">&nbsp;sign up&nbsp;</a>
+		    <a href="otherservices.html">&nbsp;other services&nbsp;</a>
+		    <a href="connect.html">&nbsp;connect&nbsp;</a>
+
+	    </nav>
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	<!--    
+      <nav>
+        <ul id="listofservices">
+          <li id="ab04"><a href="formen.html">for men</a></li>
+          <li id="ab05"><a href="forwomen.html">for women</a></li>
+          <li id="ab06"><a href="help.html">help</a></li>
+          <li id="ab07"><a href="login.html">log in</a></li>
+          <li id="ab08"><a href="signup.html">sign up</a></li>
+		  <li><a href="otherservices.html">other services</a></li>
+      <li><a href="connect.html">connect</a></li>
+        </ul>
+      </nav>
+-->
+ 
+    <main>
+      <section id="about">
+        <div class="aboutus">
+        <h1>About Us</h1>
+        <p>We are just trying to make living better for everyone.
+          We believe in letting everyone be aware of what they should
+          be doing and how they can make the most of their lives
+          by being more active and healthy. Our website also provides 
+          different solutions.
+        </p>
+        </div>
+      </section>
+
+<span>
+
+
+
+
+  <pre>
+    <span>
+
+
+
+    </span>
+  </pre>
+</span>
+
+
+      <div class="bmi-form">
+        <h1>Body Mass Index Calculator</h1>
+        <form>
+          <label for="height">Height (in cm):</label>
+          <input type="number" id="height" name="height" required>
+          <br>
+          <span>
+            <pre>
+            </pre>
+          </span>
+          <label for="weight">Weight (in kg):</label>
+          <input type="number" id="weight" name="weight" required>
+          <br>
+          <span>
+            <pre>
+            </pre>
+          </span>
+          <input type="button" value="Calculate BMI" onclick="calculateBMI()">
+          <br>
+          <label for="bmi">BMI:</label>
+          <span id="bmi"></span>
+        </form>
+      </div>
+      
+      <script>
+        function calculateBMI() {
+        var height = document.getElementById("height").value;
+        var weight = document.getElementById("weight").value;
+        var bmi = weight / ((height/100) * (height/100));
+        document.getElementById("bmi").innerHTML = bmi.toFixed(2);
+        }
+
+      </script>
+      <span>
+        <pre>
+
+
+
+
+        </pre>
+      </span>
+      <p>
+        underweight: bmi is lesser than 18.5 <br>
+        normal:bmi lies between 18.5 and 25<br>
+        overweight:bmi lies between 25 and 30<br>
+        obesity:bmi is greater than 30</p>
+      
+        <p>if you are underweight please <a href="underweight.html">click here</a><br>
+        if you are normal please <a href="normal.html">click here</a><br>
+        if you are overweight please <a href="overweight.html">click here</a><br>
+        if you are obessed please <a href="obesity.html">click here</a></p>
+    </main>
+    <footer>
+      <p>Copyright © 2024 Komal Kumari</p>
+    </footer>
+  </body>
+</html>
+

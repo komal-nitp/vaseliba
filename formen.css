@@ -1,0 +1,84 @@
+
+
+header {
+    background-color: #93d6f6;
+    color: black;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
+    
+    font-size: xx-large;
+    font-family: georgia;
+    transition: 1.0s;
+}
+p{
+    line-height: 1.5;
+}
+
+header:hover {
+    padding: 30px;
+}
+
+.text {
+    font-size:xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 100px;
+}
+
+.section {
+    background-color: #93d6f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 60%;
+    margin: 5rem auto 0 auto;
+}
+
+.section img {
+    height: 200px;
+    margin-right: 200px;
+    
+}
+
+.ankit {
+    text-align: center;
+}
+
+.nisha {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.daya {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+body{
+    background-color: #93d6f6;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+footer {
+    background-color: #eedfe8;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px ;
+    margin-bottom: 70px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.7s;
+  }
+
+footer:hover {
+    padding: 50px;
+}
